@@ -1,0 +1,297 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/simulation/modelsim
+Ede2_vga_raster
+Z0 w1645760874
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation
+Z5 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster.vhd
+Z6 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster.vhd
+l0
+L13
+VV4M=W``S77Q;@zCUVKOFc3
+!s100 dUW6BHk4d?<:Xi0O2SK?L3
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1646084314
+!i10b 1
+Z9 !s108 1646084314.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster.vhd|
+Z11 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 14 de2_vga_raster 0 22 V4M=W``S77Q;@zCUVKOFc3
+l121
+L40
+VHdiKHzFAOih]]O>F5c`3P2
+!s100 PP`AlfcRFFlk]Z5YdnzC[3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ede2_vga_raster_sprites_tb
+Z14 w1645636431
+R1
+R2
+R3
+R4
+Z15 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster_sprites_tb.vhd
+Z16 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster_sprites_tb.vhd
+l0
+L6
+VjBjnHW2R6Ahb@<GGz[oC82
+!s100 L;>b9cX?Nmahb7@17jDcA1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster_sprites_tb.vhd|
+Z18 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster_sprites_tb.vhd|
+!i113 1
+R12
+R13
+Atest_bench
+R1
+R2
+R3
+Z19 DEx4 work 25 de2_vga_raster_sprites_tb 0 22 jBjnHW2R6Ahb@<GGz[oC82
+l50
+L9
+Z20 VK_UL7jc`fZ5XMKRS``:1W0
+Z21 !s100 HUgG>egh=1GibUVm521>z1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Egrebal_vga8_20x20
+Z22 w1645637350
+R1
+R2
+R3
+R4
+Z23 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/grebal_vga8_20x20.vhd
+Z24 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/grebal_vga8_20x20.vhd
+l0
+L4
+V?P]f:3eNA4YaD2:TFS:842
+!s100 Zlc^GoUeV_0ijjH;:ofA33
+R7
+32
+R8
+!i10b 1
+R9
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/grebal_vga8_20x20.vhd|
+Z26 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/grebal_vga8_20x20.vhd|
+!i113 1
+R12
+R13
+Aimp
+R1
+R2
+R3
+DEx4 work 17 grebal_vga8_20x20 0 22 ?P]f:3eNA4YaD2:TFS:842
+l37
+L11
+Ve5J4z;WMSBfHhoc8<UKdY0
+!s100 ]2?ihd[CKb0<]DeVed0=K1
+R7
+32
+R8
+!i10b 1
+R9
+R25
+R26
+!i113 1
+R12
+R13
+Epursta_vga8_20x20
+Z27 w1645628024
+R1
+R2
+R3
+R4
+Z28 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/pursta_vga8_20x20.vhd
+Z29 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/pursta_vga8_20x20.vhd
+l0
+L4
+Vg@1ldW6VXA3S@GZ`613]a2
+!s100 KI:Aiik7:8=EWL<3PHVzh2
+R7
+32
+R8
+!i10b 1
+R9
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/pursta_vga8_20x20.vhd|
+Z31 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/pursta_vga8_20x20.vhd|
+!i113 1
+R12
+R13
+Aimp
+R1
+R2
+R3
+DEx4 work 17 pursta_vga8_20x20 0 22 g@1ldW6VXA3S@GZ`613]a2
+l37
+L11
+V@ZB[DD3Pl8O2j6PWh_bmR3
+!s100 gDCT4_MbR3KeA<ImeS>zO3
+R7
+32
+R8
+!i10b 1
+R9
+R30
+R31
+!i113 1
+R12
+R13
+Erainbo_vga8_20x20
+Z32 w1645628495
+R1
+R2
+R3
+R4
+Z33 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/rainbo_vga8_20x20.vhd
+Z34 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/rainbo_vga8_20x20.vhd
+l0
+L4
+VHTRSJ_I7QIbSf4C>IQYZ:2
+!s100 C_H@a[:D?RMP9C@b5`C>W3
+R7
+32
+R8
+!i10b 1
+R9
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/rainbo_vga8_20x20.vhd|
+Z36 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/rainbo_vga8_20x20.vhd|
+!i113 1
+R12
+R13
+Aimp
+R1
+R2
+R3
+DEx4 work 17 rainbo_vga8_20x20 0 22 HTRSJ_I7QIbSf4C>IQYZ:2
+l38
+L11
+VnP3lYI?TLTIRRKS1HldoA1
+!s100 jDL0nYfZA9NCQH81:Uke;1
+R7
+32
+R8
+!i10b 1
+R9
+R35
+R36
+!i113 1
+R12
+R13
+Eredtri_vga8_20x20
+Z37 w1645628030
+R1
+R2
+R3
+R4
+Z38 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/redtri_vga8_20x20.vhd
+Z39 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/redtri_vga8_20x20.vhd
+l0
+L4
+V2d;Yc?zloX6Jm:?k;ooZP3
+!s100 V_CCS1j5X3j`;n:jBAbI=2
+R7
+32
+R8
+!i10b 1
+R9
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/redtri_vga8_20x20.vhd|
+Z41 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/redtri_vga8_20x20.vhd|
+!i113 1
+R12
+R13
+Aimp
+R1
+R2
+R3
+DEx4 work 17 redtri_vga8_20x20 0 22 2d;Yc?zloX6Jm:?k;ooZP3
+l37
+L11
+VSEXUW<A1Rd_^2Q8mHCDWO0
+!s100 Gc^TSBK42gdYi]3E`9aTf1
+R7
+32
+R8
+!i10b 1
+R9
+R40
+R41
+!i113 1
+R12
+R13
+Ewhibal_vga8_20x20
+Z42 w1645628035
+R1
+R2
+R3
+R4
+Z43 8C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/whibal_vga8_20x20.vhd
+Z44 FC:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/whibal_vga8_20x20.vhd
+l0
+L4
+V2diL18<57PV[8=H?cI?3>3
+!s100 V1LUUHdjQN4VU@KIhaaml0
+R7
+32
+R8
+!i10b 1
+Z45 !s108 1646084313.000000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/whibal_vga8_20x20.vhd|
+Z47 !s107 C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/whibal_vga8_20x20.vhd|
+!i113 1
+R12
+R13
+Aimp
+R1
+R2
+R3
+DEx4 work 17 whibal_vga8_20x20 0 22 2diL18<57PV[8=H?cI?3>3
+l37
+L11
+V9ZjK0YV1DaV=@[49hM]S@1
+!s100 d3fPnYGimd>a[=D_jnKQW0
+R7
+32
+R8
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R12
+R13

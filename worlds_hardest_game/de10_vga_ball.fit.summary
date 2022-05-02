@@ -1,0 +1,20 @@
+Fitter Status : Successful - Mon May 02 12:51:08 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : de10_vga_ball
+Top-level Entity Name : de10_vga_ball
+Family : Cyclone V
+Device : 5CSXFC6D6F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 2,215 / 41,910 ( 5 % )
+Total registers : 3541
+Total pins : 243 / 499 ( 49 % )
+Total virtual pins : 0
+Total block memory bits : 3,047,424 / 5,662,720 ( 54 % )
+Total RAM Blocks : 372 / 553 ( 67 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 0 / 15 ( 0 % )
+Total DLLs : 1 / 4 ( 25 % )

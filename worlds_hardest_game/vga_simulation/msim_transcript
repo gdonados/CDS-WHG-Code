@@ -1,0 +1,1012 @@
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 00:59:27 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# Compile of de10_vga_raster.vhd failed with 3 errors.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of de10_vga_raster.vhd failed with 2 errors.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 1 failed with 2 errors.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:05:20 on Feb 23,2022, Elapsed time: 0:05:53
+# Errors: 0, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:05:21 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# ** Fatal: (vsim-3734) Index value 480 is out of range 0 to 399.
+#    Time: 1460 ns  Iteration: 1  Process: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst/line__38 File: C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd
+# Fatal error in Process line__38 at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd 42 Process line__38
+# 
+run -all
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd 42 Process line__38
+# 
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:06:50 on Feb 23,2022, Elapsed time: 0:01:29
+# Errors: 3, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:06:50 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# ** Fatal: (vsim-3734) Index value 480 is out of range 0 to 399.
+#    Time: 1460 ns  Iteration: 1  Process: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst/line__38 File: C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd
+# Fatal error in Process line__38 at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd 42 Process line__38
+# 
+# Compile of de10_vga_raster.vhd failed with 4 errors.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 1 failed with 4 errors.
+# Compile of de10_vga_raster.vhd failed with 3 errors.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 1 failed with 3 errors.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:15:43 on Feb 23,2022, Elapsed time: 0:08:53
+# Errors: 2, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:15:43 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful with warnings.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:20:39 on Feb 23,2022, Elapsed time: 0:04:56
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:20:39 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 20 (19 downto 0). Right is 30 (29 downto 0).
+#    Time: 100 ns  Iteration: 1  Process: /de2_vga_raster_sprites_tb/vga_system/Sprite_Address File: C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/de10_vga_raster.vhd
+# Fatal error in Process Sprite_Address at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/de10_vga_raster.vhd line 357
+# 
+# HDL call sequence:
+# Stopped at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/de10_vga_raster.vhd 357 Process Sprite_Address
+# 
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:23:06 on Feb 23,2022, Elapsed time: 0:02:27
+# Errors: 2, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:23:06 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+run -all
+# Compile of de10_vga_raster.vhd was successful with warnings.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:31:23 on Feb 23,2022, Elapsed time: 0:08:17
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:31:23 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 30 (29 downto 0). Right is 20 (19 downto 0).
+#    Time: 100 ns  Iteration: 1  Process: /de2_vga_raster_sprites_tb/vga_system/Sprite_Address File: C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/de10_vga_raster.vhd
+# Fatal error in Process Sprite_Address at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/de10_vga_raster.vhd line 357
+# 
+# HDL call sequence:
+# Stopped at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/de10_vga_raster.vhd 357 Process Sprite_Address
+# 
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:32:26 on Feb 23,2022, Elapsed time: 0:01:03
+# Errors: 2, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:32:27 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:36:19 on Feb 23,2022, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:36:20 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+run -all
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:43:30 on Feb 23,2022, Elapsed time: 0:07:10
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:43:31 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:49:21 on Feb 23,2022, Elapsed time: 0:05:50
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:49:21 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 01:53:16 on Feb 23,2022, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 01:53:16 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# ** Fatal: (vsim-3734) Index value 400 is out of range 0 to 399.
+#    Time: 3940 ns  Iteration: 1  Process: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst/line__38 File: C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd
+# Fatal error in Process line__38 at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/vga_simulation/grebal_vga8_20x20.vhd 42 Process line__38
+# 
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd failed with 3 errors.
+# Compile of grebal_vga8_20x20.vhd failed with 3 errors.
+# Compile of pursta_vga8_20x20.vhd failed with 3 errors.
+# Compile of redtri_vga8_20x20.vhd failed with 3 errors.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 4 failed with 12 errors.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 02:00:28 on Feb 23,2022, Elapsed time: 0:07:12
+# Errors: 2, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 02:00:28 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 02:04:56 on Feb 23,2022, Elapsed time: 0:04:28
+# Errors: 0, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 02:04:56 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 08:15:43 on Feb 23,2022, Elapsed time: 6:10:47
+# Errors: 0, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 08:15:43 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/green_ball_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/white_ball_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/red_triangle_inst
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 1  Instance: /de2_vga_raster_sprites_tb/vga_system/purple_star_inst
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:04:09 on Feb 23,2022, Elapsed time: 1:48:26
+# Errors: 0, Warnings: 6
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:04:09 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:13:09 on Feb 23,2022, Elapsed time: 0:09:00
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:13:09 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:20:33 on Feb 23,2022, Elapsed time: 0:07:24
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:20:33 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:23:08 on Feb 23,2022, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:23:08 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+run -all
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:28:36 on Feb 23,2022, Elapsed time: 0:05:28
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:28:36 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:31:46 on Feb 23,2022, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:31:46 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 10:34:17 on Feb 23,2022, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 10:34:18 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:00:37 on Feb 23,2022, Elapsed time: 1:26:19
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:00:37 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:02:34 on Feb 23,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:02:34 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:14:13 on Feb 23,2022, Elapsed time: 0:11:39
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:14:13 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:18:47 on Feb 23,2022, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:18:47 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Can't move the Now cursor.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+run -all
+run -all
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:23:11 on Feb 23,2022, Elapsed time: 0:04:24
+# Errors: 2, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:23:11 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:29:33 on Feb 23,2022, Elapsed time: 0:06:22
+# Errors: 2, Warnings: 3
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:29:33 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd failed with 2 errors.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:39:55 on Feb 23,2022, Elapsed time: 0:10:22
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:39:55 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of rainbo_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb
+# End time: 12:45:59 on Feb 23,2022, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 2
+# vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb 
+# Start time: 12:45:59 on Feb 23,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.de2_vga_raster_sprites_tb(test_bench)
+# Loading work.de2_vga_raster(rtl)
+# Loading work.grebal_vga8_20x20(imp)
+# Loading work.whibal_vga8_20x20(imp)
+# Loading work.redtri_vga8_20x20(imp)
+# Loading work.pursta_vga8_20x20(imp)
+# Loading work.rainbo_vga8_20x20(imp)
+add wave -position insertpoint sim:/de2_vga_raster_sprites_tb/vga_system/*
+# Can't move the Now cursor.
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /de2_vga_raster_sprites_tb/vga_system
+# End time: 22:19:07 on Feb 25,2022, Elapsed time: 57:33:08
+# Errors: 1, Warnings: 2

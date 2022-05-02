@@ -1,0 +1,38 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/AdvDig/de10_vga_ball_sprites - Copy/simulation/modelsim
+Ede10_vga_ball
+w1649607781
+DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+8de10_vga_ball.vho
+Fde10_vga_ball.vho
+l0
+L38
+Vm]5;@o<GEfhlEVBD]CTBJ0
+!s100 oRmX`^[gG4:M25`OHYD7l1
+OV;C;10.5b;63
+31
+!s110 1649607795
+!i10b 1
+!s108 1649607795.000000
+!s90 -reportprogress|300|-93|-work|work|de10_vga_ball.vho|
+!s107 de10_vga_ball.vho|
+!i113 1
+o-93 -work work
+tExplicit 1 CvgOpt 0

@@ -1,0 +1,93 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst hps.hps_0.usb1 -pg 1
+preplace inst hps.hps_0.spim0 -pg 1
+preplace inst hps.hps_0.i2c1 -pg 1
+preplace inst hps.hps_0.fpgamgr -pg 1
+preplace inst hps.hex5 -pg 1 -lvl 3 -y 970
+preplace inst hps.hps_0.dcan0 -pg 1
+preplace inst hps.hps_0.spim1 -pg 1
+preplace inst hps.hps_0.i2c2 -pg 1
+preplace inst hps.hps_0.dma -pg 1
+preplace inst hps.hps_0.eosc1 -pg 1
+preplace inst hps.hps_0.bridges -pg 1
+preplace inst hps.hps_0.fpga_interfaces -pg 1
+preplace inst hps.hps_0 -pg 1 -lvl 1 -y 1010
+preplace inst hps.hps_0.dcan1 -pg 1
+preplace inst hps.hps_0.i2c3 -pg 1
+preplace inst hps.hps_0.gpio0 -pg 1
+preplace inst hps.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst hps.hps_0.eosc2 -pg 1
+preplace inst hps.hps_0.hps_io -pg 1
+preplace inst hps.button_right -pg 1 -lvl 3 -y 1100
+preplace inst hps.hps_0.axi_sdram -pg 1
+preplace inst hps.hps_0.gpio1 -pg 1
+preplace inst hps.hps_0.wd_timer0 -pg 1
+preplace inst hps.hps_0.arm_gic_0 -pg 1
+preplace inst hps.hps_0.scu -pg 1
+preplace inst hps.hps_0.nand0 -pg 1
+preplace inst hps.hps_0.gpio2 -pg 1
+preplace inst hps.hps_0.wd_timer1 -pg 1
+preplace inst hps.hps_0.uart0 -pg 1
+preplace inst hps.button_left -pg 1 -lvl 3 -y 470
+preplace inst hps.hps_0.uart1 -pg 1
+preplace inst hps.button_down -pg 1 -lvl 3 -y 30
+preplace inst hps -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst hps.hps_0.axi_ocram -pg 1
+preplace inst hps.hps_0.gmac0 -pg 1
+preplace inst hps.hps_0.qspi -pg 1
+preplace inst hps.hps_0.timer0 -pg 1
+preplace inst hps.hps_0.sysmgr -pg 1
+preplace inst hps.hps_0.l3regs -pg 1
+preplace inst hps.hps_0.gmac1 -pg 1
+preplace inst hps.hps_0.timer1 -pg 1
+preplace inst hps.button_up -pg 1 -lvl 3 -y 1200
+preplace inst hps.hps_0.timer2 -pg 1
+preplace inst hps.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst hps.hps_0.hps_io.border -pg 1
+preplace inst hps.hex0 -pg 1 -lvl 3 -y 130
+preplace inst hps.hps_0.timer3 -pg 1
+preplace inst hps.hps_0.rstmgr -pg 1
+preplace inst hps.hps_0.arm_a9_0 -pg 1
+preplace inst hps.hps_0.clk_0 -pg 1
+preplace inst hps.hex1 -pg 1 -lvl 3 -y 570
+preplace inst hps.de10_vga_raster_sprites_0 -pg 1 -lvl 3 -y 230
+preplace inst hps.hps_0.sdrctl -pg 1
+preplace inst hps.hps_0.clkmgr -pg 1
+preplace inst hps.hps_0.arm_a9_1 -pg 1
+preplace inst hps.hex2 -pg 1 -lvl 3 -y 670
+preplace inst hps.hps_0.L2 -pg 1
+preplace inst hps.hex3 -pg 1 -lvl 3 -y 770
+preplace inst hps.hps_0.timer -pg 1
+preplace inst hps.hps_0.usb0 -pg 1
+preplace inst hps.hps_0.sdmmc -pg 1
+preplace inst hps.hps_0.i2c0 -pg 1
+preplace inst hps.hex4 -pg 1 -lvl 3 -y 870
+preplace inst hps.clk_0 -pg 1 -lvl 2 -y 810
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)hex3.s1,(SLAVE)button_up.s1,(SLAVE)button_down.s1,(SLAVE)de10_vga_raster_sprites_0.avalon_slave_0,(SLAVE)hex2.s1,(SLAVE)hex1.s1,(SLAVE)hex0.s1,(SLAVE)hex5.s1,(SLAVE)button_right.s1,(SLAVE)hex4.s1,(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)button_left.s1) 1 1 2 NJ 1020 860
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps_0.hps_io,(SLAVE)hps.hps_io) 1 0 1 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.hex0_external_connection,(SLAVE)hex0.external_connection) 1 0 3 NJ 160 NJ 160 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.de10_vga_raster_sprites_0_vga_sync,(SLAVE)de10_vga_raster_sprites_0.vga_sync) 1 0 3 NJ 420 NJ 420 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hex4.external_connection,(SLAVE)hps.hex4_external_connection) 1 0 3 NJ 800 NJ 800 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)de10_vga_raster_sprites_0.vga_g,(SLAVE)hps.de10_vga_raster_sprites_0_vga_g) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.hex1_external_connection,(SLAVE)hex1.external_connection) 1 0 3 NJ 600 NJ 600 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)button_left.external_connection,(SLAVE)hps.button_left_external_connection) 1 0 3 NJ 500 NJ 500 NJ
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)hex1.reset,(MASTER)clk_0.clk_reset,(SLAVE)hex3.reset,(SLAVE)button_down.reset,(SLAVE)hex2.reset,(SLAVE)button_right.reset,(SLAVE)button_left.reset,(SLAVE)de10_vga_raster_sprites_0.reset,(SLAVE)button_up.reset,(SLAVE)hex5.reset,(SLAVE)hex4.reset,(SLAVE)hex0.reset) 1 2 1 840
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.memory,(SLAVE)hps_0.memory) 1 0 1 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.hex2_external_connection,(SLAVE)hex2.external_connection) 1 0 3 NJ 700 NJ 700 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.clk,(SLAVE)clk_0.clk_in) 1 0 2 NJ 820 NJ
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)hex2.clk,(SLAVE)hex3.clk,(SLAVE)button_left.clk,(SLAVE)button_right.clk,(SLAVE)hex5.clk,(SLAVE)hex4.clk,(SLAVE)button_up.clk,(SLAVE)button_down.clk,(MASTER)clk_0.clk,(SLAVE)de10_vga_raster_sprites_0.clock,(SLAVE)hex0.clk,(SLAVE)hex1.clk,(SLAVE)hps_0.h2f_lw_axi_clock) 1 0 3 230 1150 NJ 1150 820
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)de10_vga_raster_sprites_0.vga_vs,(SLAVE)hps.de10_vga_raster_sprites_0_vga_vs) 1 0 3 NJ 440 NJ 440 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.de10_vga_raster_sprites_0_vga_r,(SLAVE)de10_vga_raster_sprites_0.vga_r) 1 0 3 NJ 400 NJ 400 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.de10_vga_raster_sprites_0_vga_blank,(SLAVE)de10_vga_raster_sprites_0.vga_blank) 1 0 3 NJ 320 NJ 320 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.button_up_external_connection,(SLAVE)button_up.external_connection) 1 0 3 NJ 1230 NJ 1230 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.button_right_external_connection,(SLAVE)button_right.external_connection) 1 0 3 NJ 1130 NJ 1130 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.hex3_external_connection,(SLAVE)hex3.external_connection) 1 0 3 NJ 870 NJ 880 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.de10_vga_raster_sprites_0_vga_clk,(SLAVE)de10_vga_raster_sprites_0.vga_clk) 1 0 3 NJ 340 NJ 340 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.hex5_external_connection,(SLAVE)hex5.external_connection) 1 0 3 NJ 970 NJ 1000 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.de10_vga_raster_sprites_0_vga_hs,(SLAVE)de10_vga_raster_sprites_0.vga_hs) 1 0 3 NJ 380 NJ 380 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps.button_down_external_connection,(SLAVE)button_down.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)de10_vga_raster_sprites_0.vga_b,(SLAVE)hps.de10_vga_raster_sprites_0_vga_b) 1 0 3 NJ 300 NJ 300 NJ
+preplace netloc POINT_TO_POINT<net_container>hps</net_container>(MASTER)hps_0.h2f_reset,(SLAVE)clk_0.clk_in_reset) 1 1 1 560
+levelinfo -pg 1 0 200 1070
+levelinfo -hier hps 210 350 610 910 1060

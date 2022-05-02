@@ -1,0 +1,8 @@
+# Compile of de10_vga_raster.vhd was successful.
+# Compile of whibal_vga8_20x20.vhd was successful.
+# Compile of grebal_vga8_20x20.vhd was successful.
+# Compile of pursta_vga8_20x20.vhd was successful.
+# Compile of redtri_vga8_20x20.vhd was successful.
+# Compile of de10_vga_raster_sprites_tb.vhd was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui -l msim_transcript work.de2_vga_raster_sprites_tb

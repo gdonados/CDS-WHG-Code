@@ -1,0 +1,55 @@
+C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/grebal_vga8_20x20.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/grebal_vga8_20x20.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity grebal_vga8_20x20
+-- Compiling architecture imp of grebal_vga8_20x20
+
+} {} {}} C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster_sprites_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/de10_vga_raster_sprites_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity de2_vga_raster_sprites_tb
+-- Compiling architecture test_bench of de2_vga_raster_sprites_tb
+
+} {} {}} C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/redtri_vga8_20x20.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/redtri_vga8_20x20.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity redtri_vga8_20x20
+-- Compiling architecture imp of redtri_vga8_20x20
+
+} {} {}} C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/rainbo_vga8_20x20.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/rainbo_vga8_20x20.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rainbo_vga8_20x20
+-- Compiling architecture imp of rainbo_vga8_20x20
+
+} {} {}} C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/pursta_vga8_20x20.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/pursta_vga8_20x20.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pursta_vga8_20x20
+-- Compiling architecture imp of pursta_vga8_20x20
+
+} {} {}} C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/whibal_vga8_20x20.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/calho/Documents/de10standard/de10_vga_ball_sprites/whibal_vga8_20x20.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity whibal_vga8_20x20
+-- Compiling architecture imp of whibal_vga8_20x20
+
+} {} {}}
